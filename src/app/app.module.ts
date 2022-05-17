@@ -13,6 +13,8 @@ import { ContactComponent } from './contact/contact.component';
 import { MultimediaComponent } from './multimedia/multimedia.component';
 import { CalendarComponent } from './calendar/calendar.component';
 import { BannerComponent } from './banner/banner.component';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +32,8 @@ import { BannerComponent } from './banner/banner.component';
     MultimediaComponent,
     CalendarComponent,
     BannerComponent,
+    WelcomeComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,10 @@
+.calendar {
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 540px) {
+  .frame {
+    height: 400px;
+    width: 100%;
+  }
+}
