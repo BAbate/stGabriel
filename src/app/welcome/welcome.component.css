@@ -128,6 +128,15 @@ img {
     flex-direction: column;
   }
 
+  .demo-wrap {
+    height: 400px;
+    position: relative;
+    font-family: Verdana;
+    margin-left: 35px;
+    display: flex;
+    flex-direction: column;
+  }
+
   .welcome {
     padding-left: 5px;
   }
@@ -146,15 +155,15 @@ img {
 
   .img-container img {
     display: none;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 0%;
+    max-height: 0%;
   }
 
   .message {
     padding-top: 10px;
     width: 150px;
     text-align: center;
-    margin-left: 0px;
+    margin-left: 10px;
     color: white;
     background-color: rgb(63, 46, 46);
     border-radius: 5px;
@@ -169,7 +178,7 @@ img {
     align-items: center;
     text-align: center;
     padding: 20px;
-    margin-left: 2px;
+    margin-left: 7px;
     border-radius: 5px;
   }
 
@@ -180,12 +189,12 @@ img {
 
   #event-line {
     justify-items: center;
-    margin-left: 35%;
+    margin-left: 38%;
     margin-bottom: 2%;
   }
 
   .events {
-    margin-top: 10px;
+    margin-top: 30px;
     text-align: center;
     font-family: Verdana;
     font-size: 15px;
@@ -193,7 +202,7 @@ img {
 
   #box {
     display: grid;
-    grid-template-columns: 49% 1% 50%;
+    grid-template-columns: 37% 3% 60%;
   }
 
   .divider {
