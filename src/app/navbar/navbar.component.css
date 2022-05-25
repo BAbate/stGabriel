@@ -1,19 +1,25 @@
 .navbar ul li {
-  display: block;
-  flex: 0 1 auto;
+  display: inline;
   list-style-type: none;
-  margin: auto;
-  padding-right: 10px;
-  padding-left: 10px;
-  border-right: 4px solid rgb(139, 117, 117);
-  border-left: 4px solid rgb(139, 117, 117);
+  margin-left: 20px;
+  padding-left: 50px;
+  /* border-right: 4px solid rgb(139, 117, 117);
+  border-left: 4px solid rgb(139, 117, 117); */
+}
+
+.navbar ul {
+  background-color: green;
 }
 
 .navbar ul li a {
   text-decoration: none;
-  display: block;
+  /* display: block; */
   color: black;
 }
+
+/* #home {
+  margin-left:20px;
+} */
 
 /* .navlist {
   border-top: 4px solid rgb(139, 117, 117);
@@ -22,7 +28,7 @@
 
 .navbar ul li a:hover {
   height: 25px;
-  width: 175px;
+  width: 100px;
   text-align: center;
   padding-top: 5px;
   transition: 0.5s;
@@ -31,20 +37,20 @@
 }
 
 .navbar {
-  /* background-color: yellow; */
-  width: 100%;
-  margin-top: 10px;
+  background-color: yellow;
+  /* width: 100%;
+  margin-top: 10px; */
   /* height: 30px; */
 }
 
 .navbar ul {
-  width: 100%;
+  /* width: 100%;
   display: flex;
   align-items: stretch;
-  justify-content: space-between;
-  width: 100%;
-  margin: 0;
-  padding: 5px;
+  justify-content: space-between; */
+  /* width: 100%; */
+  /* margin: 0; */
+  /* padding: 5px; */
 }
 
 /* hidden nav bar */
@@ -105,11 +111,12 @@ span {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: rgb(97, 85, 85);
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
   text-align: center;
+  color: white;
 }
 
 .sidenav a {
@@ -119,6 +126,10 @@ span {
   color: #818181;
   display: block;
   transition: 0.3s;
+}
+
+.sidenav li {
+  list-style: none;
 }
 
 .sidenav a:hover {
@@ -135,9 +146,9 @@ span {
 
 /* Mobile Device */
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 414px) {
   .navbar {
-    width: 0px;
+    display: none;
   }
   .navbar ul li a {
     display: none;
@@ -156,6 +167,11 @@ span {
   }
   .sidenav a {
     font-size: 18px;
+    list-style: none;
+  }
+
+  .sidenav {
+    color: white;
   }
 }
 

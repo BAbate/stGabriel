@@ -121,18 +121,22 @@ img {
   border-radius: 35px 35px 35px 35px;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 414px) {
   .intro {
     display: flex;
     padding: 5px;
     flex-direction: column;
   }
 
+  .welcome {
+    padding-left: 5px;
+  }
+
   .demo-wrap {
     height: 400px;
     position: relative;
     font-family: Verdana;
-    margin-left: 35px;
+    margin-left: 5px;
     display: flex;
     flex-direction: column;
   }
@@ -148,9 +152,9 @@ img {
 
   .img-container {
     display: none;
-    width: 300px;
-    padding-top: 15px;
-    padding-left: 15px;
+    width: 100px;
+    padding-top: 5px;
+    padding-left: 5px;
   }
 
   .img-container img {
@@ -177,24 +181,24 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 20px;
-    margin-left: 7px;
+    padding: 10px;
+    margin-left: 55%;
     border-radius: 5px;
   }
 
   .image {
     position: absolute;
     opacity: 0;
+    width:25%;
   }
 
   #event-line {
     justify-items: center;
-    margin-left: 38%;
+    margin-left: 35%;
     margin-bottom: 2%;
   }
 
   .events {
-    margin-top: 30px;
     text-align: center;
     font-family: Verdana;
     font-size: 15px;
@@ -207,5 +211,9 @@ img {
 
   .divider {
     display: none;
+  }
+
+  .demo-content {
+    width: 350px;
   }
 }
