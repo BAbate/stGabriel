@@ -92,15 +92,17 @@ img {
 /* Events list page  */
 .events-list {
   border: 2px solid rgb(109, 102, 102);
-  margin-top: 10px;
-  padding: 3px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 25px;
 }
 
 .event-box {
   display: grid;
   grid-template-columns: 25% 75%;
   margin-bottom: 5px;
-  margin-top: 5px;
+  margin-top: 15px;
+  
 }
 
 .event-box .date {
@@ -122,6 +124,7 @@ img {
   display: inline-block;
   vertical-align: middle;
   line-height: normal;
+  text-align: center;
 }
 
 @media screen and (max-width: 414px) {
@@ -186,7 +189,7 @@ img {
 
   .events-list {
     border: 2px solid rgb(109, 102, 102);
-    margin-top: 10px;
+    margin-top: 5px;
     padding: 3px;
     width: 300px;
   }
@@ -195,7 +198,7 @@ img {
     display: grid;
     grid-template-columns: 35% 65%;
     margin-bottom: 5px;
-    margin-top: 5px;
+    margin-top: 10px;
   }
 
   .event-box .date {
