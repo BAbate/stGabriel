@@ -14,15 +14,21 @@
  </div>
 </div>
  
- <a class="home" routerLink="/home">HOME</a>
- <span style="font-size:15px;cursor:pointer" (click)="openNav()">&#9776;</span>
+ <div class="mobile-media">
+   <a class="home" routerLink="/home">HOME</a>
+   <span class="cursor"style="font-size:15px;cursor:pointer" (click)="openNav()">&#9776;</span>
+ </div>
+
+
  <div #navRef id="mySidenav" class="sidenav">
     <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
-    <li><a class="home" routerLink="/home" (click)="closeNav()" >HOME</a></li>
-    <li><a routerLink="/about" (click)="closeNav()" >ABOUT</a></li>
-    <li><a routerLink="/services" (click)="closeNav()" >SERVICES</a></li>
-    <li><a routerLink="/membership" (click)="closeNav()">MEMBERSHIP FORM</a></li>
-    <li><a routerLink="/calendar" (click)="closeNav()" >CALENDAR</a></li>
-    <li><a routerLink="/multimedia" (click)="closeNav()">MULTIMEDIA</a></li>
-    <li><a routerLink="/contact" (click)="closeNav()">CONTACT US</a></li>
+    <div class="nav-container" style="display:flex; flex-direction: column;" (click)="closeNav()">
+      <li><a routerLink="/home">HOME</a></li>
+      <li><a routerLink="/about">ABOUT</a></li>
+      <li><a routerLink="/services">SERVICES</a></li>
+      <li><a routerLink="/membership">MEMBERSHIP</a></li>
+      <li><a routerLink="/calendar">CALENDAR</a></li>
+      <li><a routerLink="/multimedia">MULTIMEDIA</a></li>
+      <li><a routerLink="/contact">CONTACT US</a></li>
+    </div>
  </div>

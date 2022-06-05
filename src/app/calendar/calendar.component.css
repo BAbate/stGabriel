@@ -2,7 +2,7 @@
   margin-top: 5px;
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 390px) {
   .frame {
     height: 400px;
     width: 100%;
