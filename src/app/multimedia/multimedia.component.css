@@ -2,6 +2,8 @@
 .media {
     display: flex;
     flex-direction: column;
+    background-color: #B8AAAA;
+    border-radius:45px;
 }
 
 .header {
