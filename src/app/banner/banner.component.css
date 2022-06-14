@@ -2,7 +2,9 @@
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(3, auto);
-  background-color: rgb(63, 46, 46);
+  /* background-color: rgb(63, 46, 46); */
+  background-color: #dd9f82;
+
 }
 
 .mariam {

@@ -23,7 +23,7 @@
 }
 
 #headline {
-  font-size: 22px;
+  font-size: 18px;
   font-family: Verdana;
   color: rgb(63, 46, 46);
 }
@@ -43,6 +43,7 @@
   border-radius: 10px;
   color: white;
   background: rgb(63, 46, 46);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .demo-wrap {
@@ -98,6 +99,7 @@ img {
   margin-top: 20px;
   padding: 10px;
   border-radius: 25px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .event-box {
@@ -156,6 +158,7 @@ img {
   border: 2px solid rgb(109, 102, 102);
   border-radius:15px;
   margin-left:10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .service-list h3 {
@@ -213,7 +216,7 @@ img {
   }
 
   .facebook-video {
-    background-color: yellow;
+
   }
 
   iframe {
