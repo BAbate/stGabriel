@@ -10,16 +10,17 @@
 }
 
 .image-intro {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  /* justify-content: center;
+  align-items: center; */
+  /* margin-left: auto;
+  margin-right: auto; */
   text-align: center;
 }
 
 .line {
   width: 100px;
   height: 3px;
-  border-bottom: 5px solid rgb(63, 46, 46);
+  border-bottom: 5px solid #650006;
 }
 
 #headline {
@@ -37,15 +38,6 @@
   font-family: Verdana;
 }
 
-.donate {
-  width: 150px;
-  height: 35px;
-  border-radius: 10px;
-  color: white;
-  background: rgb(63, 46, 46);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-}
-
 .demo-wrap {
   height: 400px;
   position: relative;
@@ -59,13 +51,13 @@
 }
 
 .image {
-  display: block;
-  width: 90%;
-  margin-left: 15px;
+  /* display: block;
+  width: 90%; */
+  /* margin-left: 15px; */
 }
 
 img {
-  display: block;
+  /* display: block; */
   border-radius: 35px 35px 35px 35px;
 }
 
@@ -111,7 +103,7 @@ img {
 }
 
 .event-box .date {
-  background-color: #3f2e2e;
+  background-color:  #650006;
   font-family: verdana;
   color: white;
   display: flex;
@@ -135,7 +127,7 @@ img {
 /* Service container */
 .services{
   padding-bottom:15px;
-  color: rgb(29, 27, 27);
+  color: #fcf6ce;
 }
 
 .service-container {
@@ -166,7 +158,7 @@ img {
 }
 
 .service-list {
-  background-color: #B8AAAA;
+  background-color: #650006;
 }
 
 
@@ -203,11 +195,13 @@ img {
     padding: 5px;
   }
 
+  
+
   .img-container {
-    margin-top: 30px;
+    /* margin-top: 30px;
     margin-left: -10px;
     width: 300px;
-    height: 400px;
+    height: 400px; */
   }
 
   .img-container img {
