@@ -6,13 +6,13 @@
 }
 
 .navbar ul {
-  background-color: white;
+  /* background-color: white; */
 }
 
 .navbar ul li a {
   text-decoration: none;
   /* display: block; */
-  color: black;
+  color: #650006;
 }
 
 .navbar ul li a:hover {
@@ -27,7 +27,7 @@
 }
 
 .navbar {
-  background-color: yellow;
+  color: #650006;
 }
 .mobile-media{
   display:none;
