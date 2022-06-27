@@ -2,7 +2,7 @@
 .intro {
   display: grid;
   padding: 40px;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 60% 40%;
 }
 
 .welcome {
@@ -10,10 +10,6 @@
 }
 
 .image-intro {
-  /* justify-content: center;
-  align-items: center; */
-  /* margin-left: auto;
-  margin-right: auto; */
   text-align: center;
 }
 
@@ -24,13 +20,18 @@
 }
 
 #headline {
-  font-size: 18px;
+  font-size: 22px;
   font-family: Verdana;
-  color: rgb(63, 46, 46);
+  color: #650006;
 }
 
 #history {
-  font-size: 25px;
+  font-size: 22px;
+  color: rgb(63, 46, 46);
+}
+
+.paragraph-container {
+  width:450px;
 }
 
 #paragraph {
@@ -54,6 +55,10 @@
   /* display: block;
   width: 90%; */
   /* margin-left: 15px; */
+}
+
+.image-intro{
+  margin-top:25px;
 }
 
 img {
@@ -195,6 +200,10 @@ img {
     padding: 5px;
   }
 
+  .paragraph-container {
+    width:300px;
+  }
+
   
 
   .img-container {
@@ -218,16 +227,18 @@ img {
     height: 250px;
   }
 
+
   /* Events list page  */
 
   .events {
     width: 300px;
+    margin-top:-45px;
   }
 
   .events-list {
     border: 2px solid rgb(109, 102, 102);
-    margin-top: 20px;
-    padding: 3px;
+    margin-top: 15px;
+    padding: 10px;
     width: 300px;
   }
 
@@ -239,12 +250,13 @@ img {
   }
 
   .event-box .date {
-    background-color: #3f2e2e;
+    background-color: #650006;
     font-family: verdana;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
 
   .date span {
@@ -285,15 +297,12 @@ img {
   border: 2px solid rgb(109, 102, 102);
   border-radius:15px;
   margin-left:-10px;
+  background-color: #650006;
+  color:#fcf9e5;
 }
 
 .service-list h3 {
   text-align: center;
 }
-
-.service-list {
-  background-color: #B8AAAA;
-}
-
 
 }

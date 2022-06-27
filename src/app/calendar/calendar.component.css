@@ -1,5 +1,8 @@
 .calendar {
-  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
 }
 
 @media screen and (max-width: 390px) {
@@ -7,4 +10,9 @@
     height: 400px;
     width: 100%;
   }
+
+  .calendar {
+    margin-top: 20px;
+  }
+ 
 }
