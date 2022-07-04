@@ -45,7 +45,7 @@ a {
 @media only screen and (max-width: 540px) {
   .membership-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .divider {

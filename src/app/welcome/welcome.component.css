@@ -1,4 +1,8 @@
 /*   */
+.wrapper{
+  background-color: #fcf9e5;
+}
+
 .intro {
   display: grid;
   padding: 40px;
@@ -16,6 +20,7 @@
 .line {
   width: 100px;
   height: 3px;
+  padding:10px;
   border-bottom: 5px solid #650006;
 }
 
@@ -28,6 +33,7 @@
 #history {
   font-size: 22px;
   color: rgb(63, 46, 46);
+  padding-top:10px;
 }
 
 .paragraph-container {
@@ -37,6 +43,7 @@
 #paragraph {
   font-size: 16px;
   font-family: Verdana;
+  padding-top:20px;
 }
 
 .demo-wrap {
@@ -160,6 +167,11 @@ img {
 
 .service-list {
   background-color: #650006;
+}
+
+.service-details{
+  margin-left: 15px;
+  margin-top: 5px;
 }
 
 

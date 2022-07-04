@@ -130,6 +130,7 @@ h2 {
   padding-top:10px;
   /* background-color: rgb(185, 180, 180); */
   background-color: rgb(206, 200, 200);
+  margin-left: -25px
   /* background-color: rgb(184, 170, 170); */
   /* background-color: #bd8789; */
 }
@@ -209,8 +210,9 @@ button {
 }
 
 .priest {
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20% 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .priest-container {
@@ -244,6 +246,7 @@ button {
 .deacons {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20% 20%;
+  margin-bottom: 10px;
 }
 .deacons-container {
   display: flex;
@@ -274,6 +277,7 @@ button {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
 
@@ -447,6 +451,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
   }
   
   .header,.child-header {
