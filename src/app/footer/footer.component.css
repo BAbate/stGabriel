@@ -8,12 +8,20 @@ footer {
   bottom: 0px;
 }
 
+footer p {
+  margin-top:10px;
+  margin-bottom: 10px;
+}
+
 .social-media {
   display: inline;
 }
 .social-media i {
   margin-top:5px;
   margin-left:15px;
+}
+.media-wrapper {
+  margin-top: 40px;
 }
 
 
