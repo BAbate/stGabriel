@@ -1,4 +1,8 @@
 /*   */
+.wrapper{
+  background-color: #fcf9e5;
+}
+
 .intro {
   display: grid;
   padding: 40px;
@@ -16,6 +20,7 @@
 .line {
   width: 100px;
   height: 3px;
+  padding:10px;
   border-bottom: 5px solid #650006;
 }
 
@@ -28,6 +33,7 @@
 #history {
   font-size: 22px;
   color: rgb(63, 46, 46);
+  padding-top:10px;
 }
 
 .paragraph-container {
@@ -37,6 +43,7 @@
 #paragraph {
   font-size: 16px;
   font-family: Verdana;
+  padding-top:20px;
 }
 
 .demo-wrap {
@@ -87,6 +94,11 @@ img {
 }
 
 /* Events list page  */
+.events{
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
 .events-list {
   border: 2px solid rgb(109, 102, 102);
   margin-top: 20px;
@@ -147,7 +159,7 @@ img {
 
 .service-list{
   width: 320px;
-  height:300px;
+  height:320px;
   border: 2px solid rgb(109, 102, 102);
   border-radius:15px;
   margin-left:10px;
@@ -162,11 +174,35 @@ img {
   background-color: #650006;
 }
 
+.service-details{
+  margin-left: 15px;
+  margin-top: 5px;
+}
+
+.service-details-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.two-fifty-pixel {
+  width:250px;
+}
+
+.margin-left-thirty-pixel{
+  margin-left:30px;
+}
+
+.margin-left-fifty-pixel{
+  margin-left:50px;
+}
+
 
 @media screen and (max-width: 414px) {
   .wrap {
     display: flex;
     flex-direction: column;
+    
   }
   .intro {
     display: flex;
@@ -176,6 +212,7 @@ img {
 
   .welcome {
     padding-left: 5px;
+    margin-top:25px;
   }
 
   .demo-wrap {
@@ -187,9 +224,7 @@ img {
     flex-direction: column;
   }
 
-  .welcome {
-    padding-left: 5px;
-  }
+  
 
   .demo-content {
     position: relative;
@@ -200,7 +235,17 @@ img {
     width:300px;
   }
 
-  
+  .image-intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  .donate-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
   .img-container img {
     max-width: 100%;
@@ -279,7 +324,7 @@ img {
 
 .service-list{
   width: 320px;
-  height:300px;
+  height:320px;
   border: 2px solid rgb(109, 102, 102);
   border-radius:15px;
   margin-left:-10px;
