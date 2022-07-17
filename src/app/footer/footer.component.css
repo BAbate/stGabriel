@@ -1,7 +1,7 @@
 footer {
   background-color: #650006;
   position: relative;
-  height: 350px;
+  height: 360px;
   color: white;
   text-align: center;
   font-size: 25px;
@@ -20,19 +20,26 @@ footer p {
   margin-top:5px;
   margin-left:15px;
 }
-.media-wrapper {
-  margin-top: 40px;
+.header-container {
+  padding:5px;
 }
-
 
 @media screen and (max-width: 380px) {
   footer {
     width: 380px;
+    height:450px;
     position: relative;
     bottom:0px;
   }
 
   iframe {
     width: 50%;
+    margin-top:20px;
   }
+
+  .header-container {
+    margin-top:10px;
+    padding:5px;
+  }
+
 }

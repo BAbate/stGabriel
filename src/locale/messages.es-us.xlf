@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="7686c810d6a125b4c74eb28ed7e9a84efbf71dfe" datatype="html">
+        <source> Welcome to the St.Gabriel Ethiopian Orthodox Church Website</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a738b8adbd7d40ba38813edbe5bb093c9518cee4" datatype="html">
+        <source><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>HISTORY<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="593c5519a1773f749e7d9826c5ed8c62ce99b62f" datatype="html">
+        <source> The Orthodox church is the ancient christian church that traces it foundation back to 
+          our Lord Jesus Christ and His Tweleve Apostles. The church has continued has pereserved the apostolic 
+           doctrine and tradition, worship, and structure. The orthodox church maintains that the 
+           church is the living Body of Jesus Christ.  
+           <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+           The Ethiopian Tewahedo Orthodox Church is among the Oriental Orthodox churches 
+           which are referred to as &quot;Non-Chalcedonian&quot;, and, sometimes by outsiders as &quot;monophysite&quot;
+            (meaning &quot;One Single Nature&quot;, in reference to Christ). The Ethiopian Church claims its earliest origins
+            from the royal official said to have been baptized by Philip the Evangelist (Acts 8:27).
+          </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fd381f93c0317e8555958b6ec84c28e529de1581" datatype="html">
+        <source>&quot;እኔ በእግዚአብሔር ፊት የምቆመው ገብርኤል ነኝ&quot; ሉቃስ 1 ፣ 19 </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b2f2458efad0e1fcce528ac8282e875784a2d218" datatype="html">
+        <source>SERVICES</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="372953b39c2929bec4434bf8073cb5973094c8f6" datatype="html">
+        <source>የዘውትር <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Daily Services</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="71aee4379b499daa78c7c8c8e8ee6cc2baf89d35" datatype="html">
+        <source>
+              ጸሎተ ኪዳን(Morning Prayer) <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+              <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Time :<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> ከለሊቱ 5 AM ጀምሮ
+             </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ede5277ae38b8b5494816facfc5dfe02aef66619" datatype="html">
+        <source>
+              የሕሙማን ፣ የቄዴር ፣ እና የንስሐ ጥምቀት እገልግሎት <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+              Emersion of Holy Water and anointing of blessed oils <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+              <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Time :<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> 7:00AM-9:30AM፣ እሁድ ከቅዳሴ በኋላ <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+              daily 7:00AM-9:30AM
+             </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="05556d8bf55033eac682ef7ff6168494a13154a5" datatype="html">
+        <source>ሳምንታዊ <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Weekly Services</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="91ec3648a5e6d8b399f3b7f5979a7aec30fc940e" datatype="html">
+        <source>
+             የዘውትር እሁድ መርሐ ግብር<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+             <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Time :<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> ከለሊቱ 5 ሰዓት እስከ 10:30<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="615f8572b5f82d497556db7069bcac012eba9f1d" datatype="html">
+        <source>
+              Sunday Service <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+              <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Time :<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> 5:00AM to 10:30AM <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+              ጸሎተ ኪዳን (Morning Prayer) <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+              ቅዳሴ (Mass) <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+              መዝሙር (Sacred Songs) <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+              ትምህርት (homily) <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="109546f3f239ca8e430bb982b9e77b752f03bed2" datatype="html">
+        <source>ወርሀዊ <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Monthly Services</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="23eedd10dd6b6ad57dbb0b073937cef4a5ac03b3" datatype="html">
+        <source>
+              የቅዱስ ገብርኤል ወርሀዊ በዓል - በየወሩ በ19/ <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+              Saint Gabriel Commemoration <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+              <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Time :<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> 19th day of every month(E.C)
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ddf902f711383879b14483efe709e35708eda1e5" datatype="html">
+        <source>
+              የቅዱስ ዮሐንስ ወርሀዊ በዓል- በየወሩ <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+              በ30/ Saint John the Baptist Commemoration Day<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+              <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Time :<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> 30th day of every month(E.C)
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="695bf04a55a7d06b1cd8969cbaeb78964b5d77e2" datatype="html">
+        <source>
+              የቅዱስ ሩፋኤል ወርሀዊ በዓል - በየወሩ በ 14 <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+              Saint Rufael Commemoration Day <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+              <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Time :<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> 14th day of every month(E.C)
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="902b69785b5947f7fea9f4a1e5a9a508ec557153" datatype="html">
+        <source>አመታዊ <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/> Annual Celebration</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+          <context context-type="linenumber">105</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5e34df564535a75e8af74798db8f588741b3188a" datatype="html">
+        <source>
+              መጥምቀ መለኮት ቅዱስ ዮሐንስ ዓመታዊ በዓል <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+              <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Time :<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> መስከረም 2 እና ሰኔ 30 <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+              Saint John the Baptist 
+              <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>Annual Commemoration Day
+              <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/><x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>Time :<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/>  Sep. 2 &amp; June 30(EC)
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+          <context context-type="linenumber">109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5ddeddeb7668ab57c9ac1f2989b9ab9b55a1e2de" datatype="html">
+        <source>
+              ልደት(ገና)/Ethiopian Christmas <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br/&gt;"/>
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+          <context context-type="linenumber">116</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="18de74f5c2df42d44ca16af8626df6a12462b87f" datatype="html">
+        <source>
+              ትንሳዔ/ Ethiopian Easter
+            </source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+          <context context-type="linenumber">119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bc56f889b07284b40a313839941803f392e8844c" datatype="html">
+        <source> <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>VISIT OUR FACEBOOK PAGE<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+          <context context-type="linenumber">135</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="34cdcfef2f7ed4c444fd1a8ad5cc0b8b1d8f33a7" datatype="html">
+        <source> <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>UPCOMING EVENTS<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/></source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+          <context context-type="linenumber">146</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c6dd56f3df473ed7dd3f78ee11a11bdeea1cb552" datatype="html">
+        <source>May 28</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+          <context context-type="linenumber">151</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+          <context context-type="linenumber">157</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+          <context context-type="linenumber">163</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aeccfaf4b8d7e8ddfcfad1de8b8cc554d6ec5084" datatype="html">
+        <source> This is placebolder for upcoming event</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+          <context context-type="linenumber">153</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+          <context context-type="linenumber">159</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/welcome/welcome.component.html</context>
+          <context context-type="linenumber">165</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

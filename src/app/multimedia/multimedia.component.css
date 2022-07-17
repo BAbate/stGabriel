@@ -1,83 +1,86 @@
 
-.media {
-    display: flex;
-    flex-direction: column;
-    background-color: #ce7e84;
-    border-radius:45px;
-}
-
 .header {
-    color:rgb(80, 55, 55);
+    color:#650006 ;
     font-size: 25px;
 }
 
 .divider {
-    background-color: rgb(83, 69, 69);
+    background-color: #650006 ;
     width:100px;
     height:5px;
     margin: 5px 0 30px 0;
     margin-left:47%;
+    margin-top:10px;
 }
 
-.media-section {
-    display: flex;
-    flex-direction: row;
-}
-
-.media-container {
-    display: flex;
-    flex-direction: column;
-    margin: auto auto;
-    
-}
-
-.img-container {
-    width: 300px;
-    height:350px;
-    
+.img-container{
+   width:250px;
+   height: 200px;
+   padding-left:15px;
 }
 
 img {
     max-width: 100%;
     max-height: 100%;
     border-radius: 25px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    box-shadow: #650006  0px 0px 16px;
 }
 
 .img-container:hover {
     opacity:0.5;
 }
 
+.media-container{
+    display:flex;
+}
+
+.media-header {
+    text-align: center;
+    margin-bottom: 10px;
+    font-family: Snell Roundhand;
+    font-size: 25px;
+    color:#650006;
+}
+
+.media-section {
+    margin-left:25px;
+}
+
 @media screen and (max-width: 414px) {
-     .media{
-         display: flex;
-         flex-direction: column;
-         margin-top: 30px;
-     }
+     .header {
+        color:rgb(80, 55, 55);
+        font-size: 20px;
+    }
      .media-section {
         display: flex;
         flex-direction: column;
     }
      .media-container {
          flex-direction: column;
+         margin-left:30px;
      }
 
      .img-container {
          width: 300px;
-         height:300px;
-         
+         height:200px; 
+         padding-bottom:15px;
      }
 
      img {
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        box-shadow: #650006 (50, 50, 93, 0.25) 0px 13px 27px -5px,#650006 (0, 0, 0, 0.3) 0px 8px 16px -8px;
      }
+    
 
      .divider {
-        background-color: rgb(83, 69, 69);
+        background-color: #650006 ;
         width:100px;
         height:5px;
-        margin: 5px 0 30px 0;
+        margin: 15px 0 30px 0;
         margin-left:37%;
+    }
+
+    .header {
+        margin-top: 10px;
     }
 
 }
