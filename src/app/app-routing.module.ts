@@ -1,3 +1,4 @@
+import { DonateComponent } from './donate/donate.component';
 import { ContactComponent } from './contact/contact.component';
 import { MultimediaComponent } from './multimedia/multimedia.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
@@ -16,6 +17,7 @@ const routes: Routes = [
   {path:'membership', component : MembershipComponent },
   {path:'calendar', component : CalendarComponent },
   {path:'contact', component : ContactComponent},
+  {path:'donate', component : DonateComponent},
   {path: '',   redirectTo: '/home', pathMatch: 'full' },
   {path:'**', component: PageNotFoundComponent},
 ];

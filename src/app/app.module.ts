@@ -14,6 +14,7 @@ import { CalendarComponent } from './calendar/calendar.component';
 import { BannerComponent } from './banner/banner.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { FooterComponent } from './footer/footer.component';
+import { DonateComponent } from './donate/donate.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { FooterComponent } from './footer/footer.component';
     BannerComponent,
     WelcomeComponent,
     FooterComponent,
+    DonateComponent,
   ],
   imports: [
     BrowserModule,
